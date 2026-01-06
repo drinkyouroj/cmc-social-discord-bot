@@ -7,6 +7,7 @@ RUN npm install --no-audit --no-fund
 
 FROM base AS build
 COPY --from=deps /app/node_modules ./node_modules
+COPY package.json ./
 COPY prisma ./prisma
 COPY src ./src
 COPY tsconfig.json ./
