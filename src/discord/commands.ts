@@ -9,7 +9,7 @@ import { logger } from '../logger.js';
 import { fetchCmcPostViaTask } from '../services/apify.js';
 import { classifySentiment } from '../services/paralon.js';
 import { extractCmcPostIdOrUrl, normalizeCmcPost } from '../services/cmcPost.js';
-import { SubmissionStatus } from '@prisma/client';
+import type { SubmissionStatus } from '@prisma/client';
 
 function randomCode(): string {
   const alphabet = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
@@ -322,22 +322,22 @@ async function handleSubmit(interaction: ChatInputCommandInteraction) {
 
   const bullish = post.bullish;
 
-  let status: SubmissionStatus = SubmissionStatus.PENDING_REVIEW;
+  let status: SubmissionStatus = 'PENDING_REVIEW';
   let reason: string | undefined = undefined;
 
   if (bullish === undefined) {
-    status = SubmissionStatus.PENDING_REVIEW;
+    status = 'PENDING_REVIEW';
     reason = 'Bullish flag missing; requires manual review.';
   } else if (bullish === false) {
-    status = SubmissionStatus.REJECTED;
+    status = 'REJECTED';
     reason = 'Bullish flag is false.';
   } else {
     // bullish === true
     if (llm.result.label === 'positive' && llm.result.confidence >= config.sentimentMinConfidence) {
-      status = SubmissionStatus.APPROVED;
+      status = 'APPROVED';
       reason = 'Auto-approved: bullish=true and positive sentiment.';
     } else {
-      status = SubmissionStatus.PENDING_REVIEW;
+      status = 'PENDING_REVIEW';
       reason = `Requires review: bullish=true but sentiment=${llm.result.label} (conf=${llm.result.confidence.toFixed(2)}).`;
     }
   }
@@ -360,16 +360,16 @@ async function handleSubmit(interaction: ChatInputCommandInteraction) {
       llmRawJson: llm.rawJson as any,
       status,
       decisionReason: reason,
-      decidedAt: status === SubmissionStatus.PENDING_REVIEW ? null : new Date(),
-      decidedByDiscordUserId: status === SubmissionStatus.PENDING_REVIEW ? null : 'SYSTEM'
+      decidedAt: status === 'PENDING_REVIEW' ? null : new Date(),
+      decidedByDiscordUserId: status === 'PENDING_REVIEW' ? null : 'SYSTEM'
     }
   });
 
-  if (status === SubmissionStatus.APPROVED) {
+  if (status === 'APPROVED') {
     return await interaction.editReply(`✅ Approved. Submission ID: \`${created.id}\``);
   }
 
-  if (status === SubmissionStatus.REJECTED) {
+  if (status === 'REJECTED') {
     return await interaction.editReply(`❌ Rejected. ${reason ?? ''} Submission ID: \`${created.id}\``);
   }
 
@@ -439,13 +439,7 @@ async function handleAdmin(interaction: ChatInputCommandInteraction) {
   if (group === 'review' && sub === 'list') {
     const statusStr = interaction.options.getString('status', false);
     const status =
-      statusStr === 'APPROVED'
-        ? SubmissionStatus.APPROVED
-        : statusStr === 'REJECTED'
-          ? SubmissionStatus.REJECTED
-          : statusStr === 'PENDING_REVIEW'
-            ? SubmissionStatus.PENDING_REVIEW
-            : undefined;
+      statusStr === 'APPROVED' || statusStr === 'REJECTED' || statusStr === 'PENDING_REVIEW' ? statusStr : undefined;
 
     const items = await prisma.submission.findMany({
       where: { guildId, ...(status ? { status } : {}) },
@@ -468,7 +462,7 @@ async function handleAdmin(interaction: ChatInputCommandInteraction) {
     const updated = await prisma.submission.update({
       where: { id },
       data: {
-        status: SubmissionStatus.APPROVED,
+        status: 'APPROVED',
         decidedAt: new Date(),
         decidedByDiscordUserId: interaction.user.id,
         decisionReason: 'Approved by admin.'
@@ -483,7 +477,7 @@ async function handleAdmin(interaction: ChatInputCommandInteraction) {
     const updated = await prisma.submission.update({
       where: { id },
       data: {
-        status: SubmissionStatus.REJECTED,
+        status: 'REJECTED',
         decidedAt: new Date(),
         decidedByDiscordUserId: interaction.user.id,
         decisionReason: reason

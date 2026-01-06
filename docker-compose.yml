@@ -22,7 +22,7 @@ services:
       context: .
       dockerfile: docker/Dockerfile
     env_file:
-      - ./example.env
+      - ./.env
     depends_on:
       - postgres
       - redis
