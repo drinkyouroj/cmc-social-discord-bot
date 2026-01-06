@@ -1,5 +1,6 @@
 import OpenAI from 'openai';
 import { env } from '../env.js';
+import { logger } from '../logger.js';
 
 export type SentimentLabel = 'positive' | 'neutral' | 'negative';
 
@@ -14,6 +15,26 @@ const client = new OpenAI({
   apiKey: env.PARALON_API_KEY,
   baseURL: env.PARALON_BASE_URL
 });
+
+let cachedModels: { atMs: number; ids: string[] } | null = null;
+
+async function getAvailableModelIds(): Promise<string[]> {
+  const now = Date.now();
+  if (cachedModels && now - cachedModels.atMs < 10 * 60 * 1000) return cachedModels.ids;
+
+  const resp = await client.models.list();
+  const ids = (resp.data ?? []).map((m: any) => m.id).filter((x: any) => typeof x === 'string');
+  cachedModels = { atMs: now, ids };
+  return ids;
+}
+
+async function pickFallbackModel(preferred: string): Promise<string> {
+  const ids = await getAvailableModelIds();
+  if (ids.includes(preferred)) return preferred;
+  if (ids.includes('qwen3-8b')) return 'qwen3-8b';
+  if (ids.length > 0) return ids[0];
+  return preferred;
+}
 
 function clamp01(n: number) {
   if (Number.isNaN(n)) return 0;
@@ -36,14 +57,35 @@ export async function classifySentiment(text: string): Promise<{ result: Sentime
     'Be conservative: if mixed or unclear, choose "neutral".'
   ].join('\n');
 
-  const resp = await client.chat.completions.create({
-    model: env.PARALON_MODEL,
-    temperature: 0,
-    messages: [
-      { role: 'system', content: prompt },
-      { role: 'user', content: text }
-    ]
-  });
+  const run = async (model: string) =>
+    await client.chat.completions.create({
+      model,
+      temperature: 0,
+      messages: [
+        { role: 'system', content: prompt },
+        { role: 'user', content: text }
+      ]
+    });
+
+  let modelToUse = env.PARALON_MODEL.trim().replace(/^"(.*)"$/, '$1').replace(/^'(.*)'$/, '$1');
+  let resp;
+  try {
+    resp = await run(modelToUse);
+  } catch (e: any) {
+    const msg = String(e?.error?.message ?? e?.message ?? e);
+    if (msg.includes('Model') && msg.includes('not found')) {
+      const fallback = await pickFallbackModel(modelToUse);
+      if (fallback !== modelToUse) {
+        logger.warn({ requestedModel: modelToUse, fallbackModel: fallback }, 'Paralon model unavailable; retrying');
+        modelToUse = fallback;
+        resp = await run(modelToUse);
+      } else {
+        throw e;
+      }
+    } else {
+      throw e;
+    }
+  }
 
   const content = resp.choices?.[0]?.message?.content ?? '';
   let rawJson: unknown;

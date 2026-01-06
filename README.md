@@ -29,7 +29,7 @@ Create a `.env` file (you can copy `example.env`) and set:
 - **ParalonCloud**
   - `PARALON_BASE_URL` (default `https://paraloncloud.com/v1`)
   - `PARALON_API_KEY`
-  - `PARALON_MODEL` (default `qwen3-14b`)
+  - `PARALON_MODEL` (default `qwen3-8b`; actual availability depends on your ParalonCloud API key)
 
 ### Local dev (non-Docker)
 

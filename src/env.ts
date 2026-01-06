@@ -17,7 +17,8 @@ const EnvSchema = z.object({
 
   PARALON_BASE_URL: z.string().url().default('https://paraloncloud.com/v1'),
   PARALON_API_KEY: z.string().min(1),
-  PARALON_MODEL: z.string().min(1).default('qwen3-14b'),
+  // Note: availability depends on ParalonCloud API key; we default to a commonly-available model.
+  PARALON_MODEL: z.string().min(1).default('qwen3-8b'),
 
   DEFAULT_MAX_POST_AGE_DAYS: z.coerce.number().int().positive().default(7),
   DEFAULT_SENTIMENT_MIN_CONFIDENCE: z.coerce.number().min(0).max(1).default(0.65),
