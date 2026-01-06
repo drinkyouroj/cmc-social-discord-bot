@@ -238,8 +238,16 @@ async function handleVerify(interaction: ChatInputCommandInteraction) {
   });
   if (!pending) return await interaction.editReply('No active registration code found. Run `/register` again.');
 
-  const { item } = await fetchCmcPostViaTask(postIdOrUrl);
-  const post = normalizeCmcPost(item);
+  let post;
+  try {
+    const { item } = await fetchCmcPostViaTask(postIdOrUrl);
+    post = normalizeCmcPost(item);
+  } catch (e: any) {
+    const msg = String(e?.message ?? e);
+    return await interaction.editReply(
+      `Failed to fetch the CMC post from Apify (try again in a minute): ${msg}`
+    );
+  }
 
   if (post.ownerHandle !== pending.requestedHandle) {
     return await interaction.editReply(

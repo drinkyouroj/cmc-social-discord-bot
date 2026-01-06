@@ -13,6 +13,7 @@ const EnvSchema = z.object({
 
   APIFY_TOKEN: z.string().min(1),
   APIFY_TASK_ID: z.string().min(1),
+  APIFY_TASK_TIMEOUT_MS: z.coerce.number().int().positive().default(90_000),
 
   PARALON_BASE_URL: z.string().url().default('https://paraloncloud.com/v1'),
   PARALON_API_KEY: z.string().min(1),

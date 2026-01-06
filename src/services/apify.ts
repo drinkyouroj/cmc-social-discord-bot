@@ -55,7 +55,7 @@ export async function fetchCmcPostViaTask(postIdOrUrl: string): Promise<{
   }
 
   const startedAt = Date.now();
-  const timeoutMs = 60_000;
+  const timeoutMs = env.APIFY_TASK_TIMEOUT_MS;
   const pollEveryMs = 2_000;
 
   while (true) {
