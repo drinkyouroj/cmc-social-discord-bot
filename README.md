@@ -30,6 +30,10 @@ Create a `.env` file (you can copy `example.env`) and set:
   - `PARALON_BASE_URL` (default `https://paraloncloud.com/v1`)
   - `PARALON_API_KEY`
   - `PARALON_MODEL` (default `qwen3-8b`; actual availability depends on your ParalonCloud API key)
+- **Defaults**
+  - `DEFAULT_MAX_POST_AGE_DAYS`
+  - `DEFAULT_SENTIMENT_MIN_CONFIDENCE`
+  - `DEFAULT_ADMIN_DISCORD_USER_ID` (bootstraps an initial admin allowlist entry when a guild is first seen)
 
 ### Local dev (non-Docker)
 
@@ -66,6 +70,9 @@ docker compose exec bot npx prisma migrate deploy
   - `/admin review list status:PENDING_REVIEW`
   - `/admin review approve id:<SUBMISSION_ID>`
   - `/admin review reject id:<SUBMISSION_ID> reason:<TEXT>`
+- Track “points awarded” for approved submissions (tracking only):
+  - `/admin points award id:<SUBMISSION_ID> amount:<N> currency:<optional> note:<optional>`
+  - `/admin points revoke id:<SUBMISSION_ID> note:<optional>`
 - Reset a user’s registration:
   - `/admin reset-user user:<USER>`
 

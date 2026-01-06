@@ -25,14 +25,24 @@ async function ensureGuildConfig(guildId: string) {
     data: {
       guildId,
       maxPostAgeDays: env.DEFAULT_MAX_POST_AGE_DAYS,
-      sentimentMinConfidence: env.DEFAULT_SENTIMENT_MIN_CONFIDENCE
-    }
+      sentimentMinConfidence: env.DEFAULT_SENTIMENT_MIN_CONFIDENCE,
+      allowlistedUsers: {
+        create: {
+          discordUserId: env.DEFAULT_ADMIN_DISCORD_USER_ID
+        }
+      }
+    },
+    include: { allowlistedUsers: true }
   });
 }
 
 async function isAdmin(interaction: ChatInputCommandInteraction): Promise<boolean> {
   const guildId = interaction.guildId;
   if (!guildId) return false;
+
+  // Bootstrap/super-admin bypass for initial setup.
+  if (interaction.user.id === env.DEFAULT_ADMIN_DISCORD_USER_ID) return true;
+
   const config = await ensureGuildConfig(guildId);
 
   const allowlisted = await prisma.guildAllowlistedUser.findFirst({
@@ -136,6 +146,12 @@ export const commandBuilders = [
                 .setDescription('PENDING_REVIEW | APPROVED | REJECTED')
                 .setRequired(false)
             )
+            .addBooleanOption((o) =>
+              o
+                .setName('unawarded_only')
+                .setDescription('Only show submissions that have not been awarded points yet')
+                .setRequired(false)
+            )
         )
         .addSubcommand((s) =>
           s
@@ -149,6 +165,31 @@ export const commandBuilders = [
             .setDescription('Reject a submission')
             .addStringOption((o) => o.setName('id').setDescription('Submission ID').setRequired(true))
             .addStringOption((o) => o.setName('reason').setDescription('Reason').setRequired(true))
+        )
+    )
+    .addSubcommandGroup((g) =>
+      g
+        .setName('points')
+        .setDescription('Track awarding points for approved submissions')
+        .addSubcommand((s) =>
+          s
+            .setName('award')
+            .setDescription('Mark a submission as awarded points (tracking only)')
+            .addStringOption((o) => o.setName('id').setDescription('Submission ID').setRequired(true))
+            .addIntegerOption((o) =>
+              o.setName('amount').setDescription('Points amount').setMinValue(0).setRequired(true)
+            )
+            .addStringOption((o) =>
+              o.setName('currency').setDescription('Currency label (e.g. points, XP)').setRequired(false)
+            )
+            .addStringOption((o) => o.setName('note').setDescription('Optional note').setRequired(false))
+        )
+        .addSubcommand((s) =>
+          s
+            .setName('revoke')
+            .setDescription('Unmark a submission as awarded (tracking only)')
+            .addStringOption((o) => o.setName('id').setDescription('Submission ID').setRequired(true))
+            .addStringOption((o) => o.setName('note').setDescription('Optional note').setRequired(false))
         )
     )
 ].map((b) => b.toJSON());
@@ -448,9 +489,10 @@ async function handleAdmin(interaction: ChatInputCommandInteraction) {
     const statusStr = interaction.options.getString('status', false);
     const status =
       statusStr === 'APPROVED' || statusStr === 'REJECTED' || statusStr === 'PENDING_REVIEW' ? statusStr : undefined;
+    const unawardedOnly = interaction.options.getBoolean('unawarded_only', false) ?? false;
 
     const items = await prisma.submission.findMany({
-      where: { guildId, ...(status ? { status } : {}) },
+      where: { guildId, ...(status ? { status } : {}), ...(unawardedOnly ? { pointsAwarded: false } : {}) },
       orderBy: { createdAt: 'desc' },
       take: 10
     });
@@ -458,9 +500,11 @@ async function handleAdmin(interaction: ChatInputCommandInteraction) {
     if (items.length === 0) return await interaction.editReply('No submissions found.');
     const lines = items.map(
       (s) =>
-        `\`${s.id}\` • ${s.status} • <@${s.discordUserId}> • ${s.postUrl ?? s.postIdOrUrl} • bullish=${String(
-          s.bullish
-        )} • llm=${s.llmLabel ?? 'n/a'}(${s.llmConfidence ?? 'n/a'})`
+        `\`${s.id}\` • ${s.status} • awarded=${s.pointsAwarded ? 'yes' : 'no'}${
+          s.pointsAwarded ? `(${s.pointsAmount ?? 0} ${s.pointsCurrency ?? 'points'})` : ''
+        } • <@${s.discordUserId}> • ${s.postUrl ?? s.postIdOrUrl} • bullish=${String(s.bullish)} • llm=${
+          s.llmLabel ?? 'n/a'
+        }(${s.llmConfidence ?? 'n/a'})`
     );
     return await interaction.editReply(lines.join('\n'));
   }
@@ -492,6 +536,46 @@ async function handleAdmin(interaction: ChatInputCommandInteraction) {
       }
     });
     return await interaction.editReply(`Rejected \`${updated.id}\`: ${reason}`);
+  }
+
+  if (group === 'points' && sub === 'award') {
+    const id = interaction.options.getString('id', true);
+    const amount = interaction.options.getInteger('amount', true);
+    const currency = interaction.options.getString('currency', false) ?? 'points';
+    const note = interaction.options.getString('note', false) ?? null;
+
+    const updated = await prisma.submission.update({
+      where: { id },
+      data: {
+        pointsAwarded: true,
+        pointsAmount: amount,
+        pointsCurrency: currency,
+        pointsAwardedAt: new Date(),
+        pointsAwardedByDiscordUserId: interaction.user.id,
+        pointsNote: note
+      }
+    });
+    return await interaction.editReply(
+      `Marked \`${updated.id}\` as awarded: ${amount} ${currency}.`
+    );
+  }
+
+  if (group === 'points' && sub === 'revoke') {
+    const id = interaction.options.getString('id', true);
+    const note = interaction.options.getString('note', false) ?? null;
+
+    const updated = await prisma.submission.update({
+      where: { id },
+      data: {
+        pointsAwarded: false,
+        pointsAmount: null,
+        pointsCurrency: null,
+        pointsAwardedAt: null,
+        pointsAwardedByDiscordUserId: null,
+        pointsNote: note
+      }
+    });
+    return await interaction.editReply(`Unmarked \`${updated.id}\` as awarded.`);
   }
 
   return await interaction.editReply('Unknown admin command.');

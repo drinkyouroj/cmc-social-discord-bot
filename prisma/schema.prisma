@@ -89,10 +89,18 @@ model Submission {
   decidedByDiscordUserId String?
   decidedAt       DateTime?
 
+  pointsAwarded              Boolean  @default(false)
+  pointsAmount               Int?
+  pointsCurrency             String?  // e.g. "points", "XP", etc.
+  pointsAwardedByDiscordUserId String?
+  pointsAwardedAt            DateTime?
+  pointsNote                 String?
+
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 
   @@index([guildId, status])
   @@index([discordUserId])
+  @@index([guildId, pointsAwarded])
 }
 

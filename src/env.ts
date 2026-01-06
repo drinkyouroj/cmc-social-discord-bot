@@ -23,6 +23,9 @@ const EnvSchema = z.object({
   DEFAULT_MAX_POST_AGE_DAYS: z.coerce.number().int().positive().default(7),
   DEFAULT_SENTIMENT_MIN_CONFIDENCE: z.coerce.number().min(0).max(1).default(0.65),
 
+  // Seed admin allowlist on first guild config creation (useful for initial bootstrap).
+  DEFAULT_ADMIN_DISCORD_USER_ID: z.string().min(1).default('426250619435614208'),
+
   LOG_LEVEL: z.string().default('info')
 });
 
