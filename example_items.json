@@ -1,0 +1,3158 @@
+[{
+  "platform": "coinmarketcap-community",
+  "stableId": "cmc-community:coinmarketcap-community:post:372557143",
+  "matchedAt": "2026-01-06T19:41:03.742Z",
+  "matchedSymbols": [
+    "DGRAM"
+  ],
+  "text": "$DGRAM SCAM IS ALWAYS SCAM",
+  "source": {
+    "actorId": "cmc/currency-community",
+    "runId": null,
+    "datasetId": null,
+    "url": "https://coinmarketcap.com/community/post/372557143/"
+  },
+  "raw": {
+    "kind": "post",
+    "id": "372557143",
+    "url": "https://coinmarketcap.com/community/post/372557143/",
+    "text": "$DGRAM SCAM IS ALWAYS SCAM",
+    "raw": {
+      "gravityId": "372557143",
+      "textContent": "$DGRAM SCAM IS ALWAYS SCAM",
+      "commentCount": "0",
+      "postTime": "1767559368084",
+      "owner": {
+        "nickname": "MIANSAAB",
+        "handle": "MIANSAAB9955",
+        "avatarId": "633520289b613d3454890381",
+        "createdTime": "1764018909274",
+        "userCreationTime": "1764018909240",
+        "type": 0,
+        "status": 0,
+        "followers": "0",
+        "followings": "26",
+        "hasFollowed": false,
+        "isYourself": false,
+        "authType": 0,
+        "announceType": 0,
+        "lastUpdateName": 1764622261273,
+        "lastUpdateNickname": 1764622241737,
+        "lastUpdateAvatarId": 1765470747168,
+        "avatar": {
+          "url": "https://s3.coinmarketcap.com/static-gravity/image/cedc6f14ec1b4ceca775ba8219a370f4.jpg",
+          "status": 2
+        },
+        "websiteAuditStatus": 2,
+        "vip": false,
+        "canPostLongPoll": false,
+        "frames": [],
+        "badges": [],
+        "goldenVerified": false,
+        "guid": "143659714"
+      },
+      "currencies": [
+        {
+          "id": 38949,
+          "symbol": "DGRAM",
+          "slug": "datagram-network"
+        }
+      ],
+      "raw": {
+        "gravityId": "372557143",
+        "owner": {
+          "nickname": "MIANSAAB",
+          "handle": "MIANSAAB9955",
+          "avatarId": "633520289b613d3454890381",
+          "createdTime": "1764018909274",
+          "userCreationTime": "1764018909240",
+          "type": 0,
+          "status": 0,
+          "followers": "0",
+          "followings": "26",
+          "hasFollowed": false,
+          "isYourself": false,
+          "authType": 0,
+          "announceType": 0,
+          "lastUpdateName": 1764622261273,
+          "lastUpdateNickname": 1764622241737,
+          "lastUpdateAvatarId": 1765470747168,
+          "avatar": {
+            "url": "https://s3.coinmarketcap.com/static-gravity/image/cedc6f14ec1b4ceca775ba8219a370f4.jpg",
+            "status": 2
+          },
+          "websiteAuditStatus": 2,
+          "vip": false,
+          "canPostLongPoll": false,
+          "frames": [],
+          "badges": [],
+          "goldenVerified": false,
+          "guid": "143659714"
+        },
+        "rootId": "372557143",
+        "textContent": "$DGRAM SCAM IS ALWAYS SCAM",
+        "commentCount": "0",
+        "likeCount": "1",
+        "isLiked": false,
+        "reactions": [
+          {
+            "gravityId": "372557143",
+            "type": 2,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "reactionsV2": [
+          {
+            "gravityId": "372557143",
+            "type": 2,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 8,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 7,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 12,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 9,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 11,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372557143",
+            "type": 10,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "postTime": "1767559368084",
+        "status": 0,
+        "originalContent": "[[{\"type\":\"token\",\"content\":{\"symbol\":\"DGRAM\",\"id\":38949,\"slug\":\"datagram-network\",\"name\":\"Datagram Network\"}},{\"type\":\"text\",\"content\":\" SCAM IS ALWAYS SCAM\"}]]",
+        "trendingScore": "-1699.8232440631916",
+        "type": 0,
+        "isYours": false,
+        "topics": [],
+        "oneLinerTopics": [],
+        "currencies": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "bullish": false,
+        "projectUser": false,
+        "linkCardVisible": true,
+        "repostCount": "0",
+        "pinned": false,
+        "languageCode": "en",
+        "isVideo": false,
+        "bucketFrom": "5",
+        "hasVote": false,
+        "sourceType": 1,
+        "isLive": false,
+        "isAnnouncement": false,
+        "impressionCount": "899",
+        "hasTreasureBoxToOpen": false,
+        "linkHashes": [],
+        "links": [],
+        "englishTag": false
+      }
+    }
+  }
+},
+{
+  "platform": "coinmarketcap-community",
+  "stableId": "cmc-community:coinmarketcap-community:post:372516418",
+  "matchedAt": "2026-01-06T19:42:08.451Z",
+  "matchedSymbols": [
+    "DGRAM"
+  ],
+  "text": "$DGRAM  what do you think datagram scam",
+  "source": {
+    "actorId": "cmc/currency-community",
+    "runId": null,
+    "datasetId": null,
+    "url": "https://coinmarketcap.com/community/post/372516418/"
+  },
+  "raw": {
+    "kind": "post",
+    "id": "372516418",
+    "url": "https://coinmarketcap.com/community/post/372516418/",
+    "text": "$DGRAM  what do you think datagram scam",
+    "raw": {
+      "gravityId": "372516418",
+      "textContent": "$DGRAM  what do you think datagram scam",
+      "commentCount": "1",
+      "postTime": "1767426910049",
+      "owner": {
+        "nickname": "Crypto_69",
+        "handle": "crypto69111",
+        "avatarId": "63351f539b613d345489037a",
+        "createdTime": "1765772165694",
+        "userCreationTime": "1765772165645",
+        "type": 0,
+        "status": 0,
+        "biography": "",
+        "originalBiography": "[]",
+        "websiteLink": "",
+        "followers": "0",
+        "followings": "0",
+        "hasFollowed": false,
+        "isYourself": false,
+        "authType": 0,
+        "announceType": 0,
+        "lastUpdateName": 1767426994323,
+        "lastUpdateNickname": 1767426994323,
+        "avatar": {
+          "url": "https://s3.coinmarketcap.com/static/img/portraits/63351f539b613d345489037a.png",
+          "status": 2
+        },
+        "websiteAuditStatus": 2,
+        "vip": false,
+        "canPostLongPoll": false,
+        "frames": [],
+        "badges": [],
+        "goldenVerified": false,
+        "guid": "144903091"
+      },
+      "currencies": [
+        {
+          "id": 38949,
+          "symbol": "DGRAM",
+          "slug": "datagram-network"
+        }
+      ],
+      "raw": {
+        "gravityId": "372516418",
+        "owner": {
+          "nickname": "Crypto_69",
+          "handle": "crypto69111",
+          "avatarId": "63351f539b613d345489037a",
+          "createdTime": "1765772165694",
+          "userCreationTime": "1765772165645",
+          "type": 0,
+          "status": 0,
+          "biography": "",
+          "originalBiography": "[]",
+          "websiteLink": "",
+          "followers": "0",
+          "followings": "0",
+          "hasFollowed": false,
+          "isYourself": false,
+          "authType": 0,
+          "announceType": 0,
+          "lastUpdateName": 1767426994323,
+          "lastUpdateNickname": 1767426994323,
+          "avatar": {
+            "url": "https://s3.coinmarketcap.com/static/img/portraits/63351f539b613d345489037a.png",
+            "status": 2
+          },
+          "websiteAuditStatus": 2,
+          "vip": false,
+          "canPostLongPoll": false,
+          "frames": [],
+          "badges": [],
+          "goldenVerified": false,
+          "guid": "144903091"
+        },
+        "rootId": "372516418",
+        "textContent": "$DGRAM  what do you think datagram scam",
+        "commentCount": "1",
+        "likeCount": "4",
+        "isLiked": false,
+        "reactions": [
+          {
+            "gravityId": "372516418",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 2,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "reactionsV2": [
+          {
+            "gravityId": "372516418",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 2,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 8,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 9,
+            "count": "3",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 11,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 7,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 12,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 10,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372516418",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "postTime": "1767426910049",
+        "status": 0,
+        "originalContent": "[[{\"type\":\"token\",\"content\":{\"slug\":\"datagram-network\",\"id\":38949,\"symbol\":\"DGRAM\",\"name\":\"Datagram Network\"}},{\"type\":\"text\",\"content\":\" what do you think datagram scam\"}]]",
+        "trendingScore": "-2598.8232168784375",
+        "type": 0,
+        "isYours": false,
+        "topics": [],
+        "oneLinerTopics": [],
+        "currencies": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "bullish": false,
+        "projectUser": false,
+        "linkCardVisible": true,
+        "repostCount": "1",
+        "pinned": false,
+        "languageCode": "en",
+        "isVideo": false,
+        "bucketFrom": "5",
+        "hasVote": false,
+        "sourceType": 1,
+        "isLive": false,
+        "isAnnouncement": false,
+        "impressionCount": "1684",
+        "hasTreasureBoxToOpen": false,
+        "linkHashes": [],
+        "links": [],
+        "englishTag": false
+      }
+    }
+  }
+},
+{
+  "platform": "coinmarketcap-community",
+  "stableId": "cmc-community:coinmarketcap-community:post:372513129",
+  "matchedAt": "2026-01-06T19:43:12.445Z",
+  "matchedSymbols": [
+    "DGRAM"
+  ],
+  "text": "$DGRAM one of the best scam project. Be careful don't invest this project .",
+  "source": {
+    "actorId": "cmc/currency-community",
+    "runId": null,
+    "datasetId": null,
+    "url": "https://coinmarketcap.com/community/post/372513129/"
+  },
+  "raw": {
+    "kind": "post",
+    "id": "372513129",
+    "url": "https://coinmarketcap.com/community/post/372513129/",
+    "text": "$DGRAM one of the best scam project. Be careful don't invest this project .",
+    "raw": {
+      "gravityId": "372513129",
+      "textContent": "$DGRAM one of the best scam project. Be careful don't invest this project .",
+      "commentCount": "1",
+      "postTime": "1767414484948",
+      "owner": {
+        "nickname": "crypto analysis",
+        "handle": "analysis3455",
+        "avatarId": "61b9ab0112c2c70880d53862",
+        "createdTime": "1756872940217",
+        "userCreationTime": "1756872940110",
+        "type": 0,
+        "status": 0,
+        "followers": "6",
+        "followings": "0",
+        "hasFollowed": false,
+        "isYourself": false,
+        "authType": 0,
+        "announceType": 0,
+        "lastUpdateName": 1756873260304,
+        "lastUpdateNickname": 1756873214387,
+        "lastUpdateAvatarId": 1767174725108,
+        "avatar": {
+          "url": "https://s3.coinmarketcap.com/static/img/portraits/61b9ab0112c2c70880d53862.png",
+          "status": 2
+        },
+        "websiteAuditStatus": 2,
+        "vip": false,
+        "canPostLongPoll": false,
+        "frames": [],
+        "badges": [],
+        "goldenVerified": false,
+        "guid": "138841304"
+      },
+      "currencies": [
+        {
+          "id": 38949,
+          "symbol": "DGRAM",
+          "slug": "datagram-network"
+        }
+      ],
+      "raw": {
+        "gravityId": "372513129",
+        "owner": {
+          "nickname": "crypto analysis",
+          "handle": "analysis3455",
+          "avatarId": "61b9ab0112c2c70880d53862",
+          "createdTime": "1756872940217",
+          "userCreationTime": "1756872940110",
+          "type": 0,
+          "status": 0,
+          "followers": "6",
+          "followings": "0",
+          "hasFollowed": false,
+          "isYourself": false,
+          "authType": 0,
+          "announceType": 0,
+          "lastUpdateName": 1756873260304,
+          "lastUpdateNickname": 1756873214387,
+          "lastUpdateAvatarId": 1767174725108,
+          "avatar": {
+            "url": "https://s3.coinmarketcap.com/static/img/portraits/61b9ab0112c2c70880d53862.png",
+            "status": 2
+          },
+          "websiteAuditStatus": 2,
+          "vip": false,
+          "canPostLongPoll": false,
+          "frames": [],
+          "badges": [],
+          "goldenVerified": false,
+          "guid": "138841304"
+        },
+        "rootId": "372513129",
+        "textContent": "$DGRAM one of the best scam project. Be careful don't invest this project .",
+        "commentCount": "1",
+        "likeCount": "4",
+        "isLiked": false,
+        "reactions": [
+          {
+            "gravityId": "372513129",
+            "type": 2,
+            "count": "2",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "reactionsV2": [
+          {
+            "gravityId": "372513129",
+            "type": 2,
+            "count": "2",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 8,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 7,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 12,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 10,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 11,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372513129",
+            "type": 9,
+            "count": "1",
+            "reacted": false
+          }
+        ],
+        "postTime": "1767414484948",
+        "status": 0,
+        "originalContent": "[[{\"content\":{\"id\":38949,\"name\":\"Datagram Network\",\"slug\":\" \",\"symbol\":\"DGRAM\"},\"type\":\"token\"},{\"type\":\"text\",\"content\":\" one of the best scam project. Be careful don't invest this project .\"}]]",
+        "trendingScore": "-2000.8232181209476",
+        "type": 0,
+        "isYours": false,
+        "topics": [],
+        "oneLinerTopics": [],
+        "currencies": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "bullish": false,
+        "projectUser": false,
+        "linkCardVisible": false,
+        "repostCount": "1",
+        "pinned": false,
+        "languageCode": "en",
+        "isVideo": false,
+        "bucketFrom": "5",
+        "hasVote": false,
+        "sourceType": 1,
+        "isLive": false,
+        "isAnnouncement": false,
+        "impressionCount": "507",
+        "hasTreasureBoxToOpen": false,
+        "linkHashes": [],
+        "links": [],
+        "englishTag": false
+      }
+    }
+  }
+},
+{
+  "platform": "coinmarketcap-community",
+  "stableId": "cmc-community:coinmarketcap-community:post:372466741",
+  "matchedAt": "2026-01-06T19:44:16.544Z",
+  "matchedSymbols": [
+    "DGRAM"
+  ],
+  "text": "$DGRAM everyone vote.\nDGRAM.",
+  "source": {
+    "actorId": "cmc/currency-community",
+    "runId": null,
+    "datasetId": null,
+    "url": "https://coinmarketcap.com/community/post/372466741/"
+  },
+  "raw": {
+    "kind": "post",
+    "id": "372466741",
+    "url": "https://coinmarketcap.com/community/post/372466741/",
+    "text": "$DGRAM everyone vote.\nDGRAM.",
+    "raw": {
+      "gravityId": "372466741",
+      "textContent": "$DGRAM everyone vote.\nDGRAM.",
+      "commentCount": "1",
+      "postTime": "1767272313928",
+      "owner": {
+        "nickname": "crypto analysis",
+        "handle": "analysis3455",
+        "avatarId": "61b9ab0112c2c70880d53862",
+        "createdTime": "1756872940217",
+        "userCreationTime": "1756872940110",
+        "type": 0,
+        "status": 0,
+        "followers": "6",
+        "followings": "0",
+        "hasFollowed": false,
+        "isYourself": false,
+        "authType": 0,
+        "announceType": 0,
+        "lastUpdateName": 1756873260304,
+        "lastUpdateNickname": 1756873214387,
+        "lastUpdateAvatarId": 1767174725108,
+        "avatar": {
+          "url": "https://s3.coinmarketcap.com/static/img/portraits/61b9ab0112c2c70880d53862.png",
+          "status": 2
+        },
+        "websiteAuditStatus": 2,
+        "vip": false,
+        "canPostLongPoll": false,
+        "frames": [],
+        "badges": [],
+        "goldenVerified": false,
+        "guid": "138841304"
+      },
+      "currencies": [
+        {
+          "id": 38949,
+          "symbol": "DGRAM",
+          "slug": "datagram-network"
+        }
+      ],
+      "raw": {
+        "gravityId": "372466741",
+        "owner": {
+          "nickname": "crypto analysis",
+          "handle": "analysis3455",
+          "avatarId": "61b9ab0112c2c70880d53862",
+          "createdTime": "1756872940217",
+          "userCreationTime": "1756872940110",
+          "type": 0,
+          "status": 0,
+          "followers": "6",
+          "followings": "0",
+          "hasFollowed": false,
+          "isYourself": false,
+          "authType": 0,
+          "announceType": 0,
+          "lastUpdateName": 1756873260304,
+          "lastUpdateNickname": 1756873214387,
+          "lastUpdateAvatarId": 1767174725108,
+          "avatar": {
+            "url": "https://s3.coinmarketcap.com/static/img/portraits/61b9ab0112c2c70880d53862.png",
+            "status": 2
+          },
+          "websiteAuditStatus": 2,
+          "vip": false,
+          "canPostLongPoll": false,
+          "frames": [],
+          "badges": [],
+          "goldenVerified": false,
+          "guid": "138841304"
+        },
+        "rootId": "372466741",
+        "textContent": "$DGRAM everyone vote.\nDGRAM.",
+        "commentCount": "1",
+        "likeCount": "6",
+        "isLiked": false,
+        "reactions": [
+          {
+            "gravityId": "372466741",
+            "type": 2,
+            "count": "4",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "reactionsV2": [
+          {
+            "gravityId": "372466741",
+            "type": 2,
+            "count": "4",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 8,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 10,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 11,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 7,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 12,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 9,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372466741",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "postTime": "1767272313928",
+        "status": 0,
+        "originalContent": "[[{\"content\":{\"id\":38949,\"name\":\"Datagram Network\",\"slug\":\" \",\"symbol\":\"DGRAM\"},\"type\":\"token\"},{\"type\":\"text\",\"content\":\" everyone vote.\"}],[{\"type\":\"text\",\"content\":\"DGRAM.\"}]]",
+        "trendingScore": "-2400.82323233805",
+        "type": 0,
+        "isYours": false,
+        "topics": [],
+        "oneLinerTopics": [],
+        "currencies": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "bullish": false,
+        "projectUser": false,
+        "linkCardVisible": false,
+        "repostCount": "0",
+        "pinned": false,
+        "languageCode": "en",
+        "isVideo": false,
+        "bucketFrom": "5",
+        "vote": {
+          "expirationDate": 1767617913928,
+          "votes": [
+            {
+              "id": 1,
+              "content": "low level scam "
+            },
+            {
+              "id": 2,
+              "content": "high level scam "
+            }
+          ],
+          "newVotes": [
+            {
+              "id": 1,
+              "content": "low level scam "
+            },
+            {
+              "id": 2,
+              "content": "high level scam "
+            }
+          ],
+          "voteType": 0,
+          "useDiamond": false,
+          "voteDiamondCount": "10"
+        },
+        "hasVote": true,
+        "sourceType": 1,
+        "voteSummary": {
+          "votes": [
+            {
+              "id": 1,
+              "content": "low level scam ",
+              "itemCount": "7",
+              "percentCount": 36.8,
+              "checked": false
+            },
+            {
+              "id": 2,
+              "content": "high level scam ",
+              "itemCount": "12",
+              "percentCount": 63.2,
+              "checked": false
+            }
+          ],
+          "expiration": "1767617913928",
+          "isoExpiration": "2026-01-05T12:58:33.928Z",
+          "totalCount": "19",
+          "voteType": 0,
+          "useDiamond": false,
+          "voteDiamondCount": "10",
+          "poolSize": "190"
+        },
+        "isLive": false,
+        "isAnnouncement": false,
+        "impressionCount": "926",
+        "hasTreasureBoxToOpen": false,
+        "linkHashes": [],
+        "links": [],
+        "englishTag": false
+      }
+    }
+  }
+},
+{
+  "platform": "coinmarketcap-community",
+  "stableId": "cmc-community:coinmarketcap-community:post:372438859",
+  "matchedAt": "2026-01-06T19:45:22.040Z",
+  "matchedSymbols": [
+    "DGRAM"
+  ],
+  "text": "$DGRAM every day create all time low . Be careful don't invest this scam project.",
+  "source": {
+    "actorId": "cmc/currency-community",
+    "runId": null,
+    "datasetId": null,
+    "url": "https://coinmarketcap.com/community/post/372438859/"
+  },
+  "raw": {
+    "kind": "post",
+    "id": "372438859",
+    "url": "https://coinmarketcap.com/community/post/372438859/",
+    "text": "$DGRAM every day create all time low . Be careful don't invest this scam project.",
+    "raw": {
+      "gravityId": "372438859",
+      "textContent": "$DGRAM every day create all time low . Be careful don't invest this scam project.",
+      "commentCount": "1",
+      "postTime": "1767178229950",
+      "owner": {
+        "nickname": "crypto analysis",
+        "handle": "analysis3455",
+        "avatarId": "61b9ab0112c2c70880d53862",
+        "createdTime": "1756872940217",
+        "userCreationTime": "1756872940110",
+        "type": 0,
+        "status": 0,
+        "followers": "6",
+        "followings": "0",
+        "hasFollowed": false,
+        "isYourself": false,
+        "authType": 0,
+        "announceType": 0,
+        "lastUpdateName": 1756873260304,
+        "lastUpdateNickname": 1756873214387,
+        "lastUpdateAvatarId": 1767174725108,
+        "avatar": {
+          "url": "https://s3.coinmarketcap.com/static/img/portraits/61b9ab0112c2c70880d53862.png",
+          "status": 2
+        },
+        "websiteAuditStatus": 2,
+        "vip": false,
+        "canPostLongPoll": false,
+        "frames": [],
+        "badges": [],
+        "goldenVerified": false,
+        "guid": "138841304"
+      },
+      "currencies": [
+        {
+          "id": 38949,
+          "symbol": "DGRAM",
+          "slug": "datagram-network"
+        }
+      ],
+      "raw": {
+        "gravityId": "372438859",
+        "owner": {
+          "nickname": "crypto analysis",
+          "handle": "analysis3455",
+          "avatarId": "61b9ab0112c2c70880d53862",
+          "createdTime": "1756872940217",
+          "userCreationTime": "1756872940110",
+          "type": 0,
+          "status": 0,
+          "followers": "6",
+          "followings": "0",
+          "hasFollowed": false,
+          "isYourself": false,
+          "authType": 0,
+          "announceType": 0,
+          "lastUpdateName": 1756873260304,
+          "lastUpdateNickname": 1756873214387,
+          "lastUpdateAvatarId": 1767174725108,
+          "avatar": {
+            "url": "https://s3.coinmarketcap.com/static/img/portraits/61b9ab0112c2c70880d53862.png",
+            "status": 2
+          },
+          "websiteAuditStatus": 2,
+          "vip": false,
+          "canPostLongPoll": false,
+          "frames": [],
+          "badges": [],
+          "goldenVerified": false,
+          "guid": "138841304"
+        },
+        "rootId": "372438859",
+        "textContent": "$DGRAM every day create all time low . Be careful don't invest this scam project.",
+        "commentCount": "1",
+        "likeCount": "6",
+        "isLiked": false,
+        "reactions": [
+          {
+            "gravityId": "372438859",
+            "type": 2,
+            "count": "4",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "reactionsV2": [
+          {
+            "gravityId": "372438859",
+            "type": 2,
+            "count": "4",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 7,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 8,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 12,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 10,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 11,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372438859",
+            "type": 9,
+            "count": "1",
+            "reacted": false
+          }
+        ],
+        "postTime": "1767178229950",
+        "status": 0,
+        "originalContent": "[[{\"content\":{\"id\":38949,\"name\":\"Datagram Network\",\"slug\":\" \",\"symbol\":\"DGRAM\"},\"type\":\"token\"},{\"type\":\"text\",\"content\":\" every day create all time low . Be careful don't invest this scam project.\"}]]",
+        "trendingScore": "-2200.8232417464474",
+        "type": 0,
+        "isYours": false,
+        "topics": [],
+        "oneLinerTopics": [],
+        "currencies": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "projectUser": false,
+        "linkCardVisible": false,
+        "repostCount": "0",
+        "pinned": false,
+        "languageCode": "en",
+        "isVideo": false,
+        "bucketFrom": "5",
+        "hasVote": false,
+        "sourceType": 1,
+        "isLive": false,
+        "isAnnouncement": false,
+        "impressionCount": "1186",
+        "hasTreasureBoxToOpen": false,
+        "linkHashes": [],
+        "links": [],
+        "englishTag": false
+      }
+    }
+  }
+},
+{
+  "platform": "coinmarketcap-community",
+  "stableId": "cmc-community:coinmarketcap-community:post:372434847",
+  "matchedAt": "2026-01-06T19:46:26.139Z",
+  "matchedSymbols": [
+    "DGRAM"
+  ],
+  "text": "$DGRAM tell everyone.",
+  "source": {
+    "actorId": "cmc/currency-community",
+    "runId": null,
+    "datasetId": null,
+    "url": "https://coinmarketcap.com/community/post/372434847/"
+  },
+  "raw": {
+    "kind": "post",
+    "id": "372434847",
+    "url": "https://coinmarketcap.com/community/post/372434847/",
+    "text": "$DGRAM tell everyone.",
+    "raw": {
+      "gravityId": "372434847",
+      "textContent": "$DGRAM tell everyone.",
+      "commentCount": "0",
+      "postTime": "1767162534149",
+      "owner": {
+        "nickname": "kbxgtfaofcdg",
+        "handle": "kbxgtfaofcdg",
+        "avatarId": "61b9aaca1d79d0637758fdeb",
+        "createdTime": "1757271182175",
+        "userCreationTime": "1757271182144",
+        "type": 0,
+        "status": 0,
+        "followers": "0",
+        "followings": "0",
+        "hasFollowed": false,
+        "isYourself": false,
+        "authType": 0,
+        "announceType": 0,
+        "lastUpdateAvatarId": 1757450458846,
+        "avatar": {
+          "url": "https://s3.coinmarketcap.com/static/img/portraits/61b9aaca1d79d0637758fdeb.png",
+          "status": 2
+        },
+        "websiteAuditStatus": 2,
+        "vip": false,
+        "canPostLongPoll": false,
+        "frames": [],
+        "badges": [],
+        "goldenVerified": false,
+        "guid": "139005607"
+      },
+      "currencies": [
+        {
+          "id": 38949,
+          "symbol": "DGRAM",
+          "slug": "datagram-network"
+        }
+      ],
+      "raw": {
+        "gravityId": "372434847",
+        "owner": {
+          "nickname": "kbxgtfaofcdg",
+          "handle": "kbxgtfaofcdg",
+          "avatarId": "61b9aaca1d79d0637758fdeb",
+          "createdTime": "1757271182175",
+          "userCreationTime": "1757271182144",
+          "type": 0,
+          "status": 0,
+          "followers": "0",
+          "followings": "0",
+          "hasFollowed": false,
+          "isYourself": false,
+          "authType": 0,
+          "announceType": 0,
+          "lastUpdateAvatarId": 1757450458846,
+          "avatar": {
+            "url": "https://s3.coinmarketcap.com/static/img/portraits/61b9aaca1d79d0637758fdeb.png",
+            "status": 2
+          },
+          "websiteAuditStatus": 2,
+          "vip": false,
+          "canPostLongPoll": false,
+          "frames": [],
+          "badges": [],
+          "goldenVerified": false,
+          "guid": "139005607"
+        },
+        "rootId": "372434847",
+        "textContent": "$DGRAM tell everyone.",
+        "commentCount": "0",
+        "likeCount": "9",
+        "isLiked": false,
+        "reactions": [
+          {
+            "gravityId": "372434847",
+            "type": 2,
+            "count": "4",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 6,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "reactionsV2": [
+          {
+            "gravityId": "372434847",
+            "type": 2,
+            "count": "4",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 6,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 8,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 7,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 9,
+            "count": "2",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 12,
+            "count": "2",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 10,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434847",
+            "type": 11,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "postTime": "1767162534149",
+        "status": 0,
+        "originalContent": "[[{\"content\":{\"id\":38949,\"name\":\"Datagram Network\",\"slug\":\" \",\"symbol\":\"DGRAM\"},\"type\":\"token\"},{\"type\":\"text\",\"content\":\" tell everyone.\"}]]",
+        "trendingScore": "-3800.8232433160274",
+        "type": 0,
+        "isYours": false,
+        "topics": [],
+        "oneLinerTopics": [],
+        "currencies": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "bullish": false,
+        "projectUser": false,
+        "linkCardVisible": false,
+        "repostCount": "0",
+        "pinned": false,
+        "languageCode": "en",
+        "isVideo": false,
+        "bucketFrom": "5",
+        "vote": {
+          "expirationDate": 1767335334149,
+          "votes": [
+            {
+              "id": 1,
+              "content": "scam "
+            },
+            {
+              "id": 2,
+              "content": "or fraud "
+            }
+          ],
+          "newVotes": [
+            {
+              "id": 1,
+              "content": "scam "
+            },
+            {
+              "id": 2,
+              "content": "or fraud "
+            }
+          ],
+          "voteType": 0,
+          "useDiamond": false,
+          "voteDiamondCount": "10"
+        },
+        "hasVote": true,
+        "sourceType": 1,
+        "voteSummary": {
+          "votes": [
+            {
+              "id": 1,
+              "content": "scam ",
+              "itemCount": "12",
+              "percentCount": 85.7,
+              "checked": false
+            },
+            {
+              "id": 2,
+              "content": "or fraud ",
+              "itemCount": "2",
+              "percentCount": 14.3,
+              "checked": false
+            }
+          ],
+          "expiration": "1767335334149",
+          "isoExpiration": "2026-01-02T06:28:54.149Z",
+          "totalCount": "14",
+          "voteType": 0,
+          "useDiamond": false,
+          "voteDiamondCount": "10",
+          "poolSize": "140"
+        },
+        "isLive": false,
+        "isAnnouncement": false,
+        "impressionCount": "1625",
+        "hasTreasureBoxToOpen": false,
+        "linkHashes": [],
+        "links": [],
+        "englishTag": false
+      }
+    }
+  }
+},
+{
+  "platform": "coinmarketcap-community",
+  "stableId": "cmc-community:coinmarketcap-community:post:372434179",
+  "matchedAt": "2026-01-06T19:47:30.745Z",
+  "matchedSymbols": [
+    "DGRAM"
+  ],
+  "text": "$DGRAM everyone vote.",
+  "source": {
+    "actorId": "cmc/currency-community",
+    "runId": null,
+    "datasetId": null,
+    "url": "https://coinmarketcap.com/community/post/372434179/"
+  },
+  "raw": {
+    "kind": "post",
+    "id": "372434179",
+    "url": "https://coinmarketcap.com/community/post/372434179/",
+    "text": "$DGRAM everyone vote.",
+    "raw": {
+      "gravityId": "372434179",
+      "textContent": "$DGRAM everyone vote.",
+      "commentCount": "0",
+      "postTime": "1767155307618",
+      "owner": {
+        "nickname": "crypto analysis",
+        "handle": "analysis3455",
+        "avatarId": "61b9ab0112c2c70880d53862",
+        "createdTime": "1756872940217",
+        "userCreationTime": "1756872940110",
+        "type": 0,
+        "status": 0,
+        "followers": "6",
+        "followings": "0",
+        "hasFollowed": false,
+        "isYourself": false,
+        "authType": 0,
+        "announceType": 0,
+        "lastUpdateName": 1756873260304,
+        "lastUpdateNickname": 1756873214387,
+        "lastUpdateAvatarId": 1767174725108,
+        "avatar": {
+          "url": "https://s3.coinmarketcap.com/static/img/portraits/61b9ab0112c2c70880d53862.png",
+          "status": 2
+        },
+        "websiteAuditStatus": 2,
+        "vip": false,
+        "canPostLongPoll": false,
+        "frames": [],
+        "badges": [],
+        "goldenVerified": false,
+        "guid": "138841304"
+      },
+      "currencies": [
+        {
+          "id": 38949,
+          "symbol": "DGRAM",
+          "slug": "datagram-network"
+        }
+      ],
+      "raw": {
+        "gravityId": "372434179",
+        "owner": {
+          "nickname": "crypto analysis",
+          "handle": "analysis3455",
+          "avatarId": "61b9ab0112c2c70880d53862",
+          "createdTime": "1756872940217",
+          "userCreationTime": "1756872940110",
+          "type": 0,
+          "status": 0,
+          "followers": "6",
+          "followings": "0",
+          "hasFollowed": false,
+          "isYourself": false,
+          "authType": 0,
+          "announceType": 0,
+          "lastUpdateName": 1756873260304,
+          "lastUpdateNickname": 1756873214387,
+          "lastUpdateAvatarId": 1767174725108,
+          "avatar": {
+            "url": "https://s3.coinmarketcap.com/static/img/portraits/61b9ab0112c2c70880d53862.png",
+            "status": 2
+          },
+          "websiteAuditStatus": 2,
+          "vip": false,
+          "canPostLongPoll": false,
+          "frames": [],
+          "badges": [],
+          "goldenVerified": false,
+          "guid": "138841304"
+        },
+        "rootId": "372434179",
+        "textContent": "$DGRAM everyone vote.",
+        "commentCount": "0",
+        "likeCount": "27",
+        "isLiked": false,
+        "reactions": [
+          {
+            "gravityId": "372434179",
+            "type": 2,
+            "count": "8",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 1,
+            "count": "2",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "reactionsV2": [
+          {
+            "gravityId": "372434179",
+            "type": 2,
+            "count": "8",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 8,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 7,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 1,
+            "count": "2",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 9,
+            "count": "7",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 10,
+            "count": "4",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 12,
+            "count": "6",
+            "reacted": false
+          },
+          {
+            "gravityId": "372434179",
+            "type": 11,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "postTime": "1767155307618",
+        "status": 0,
+        "originalContent": "[[{\"content\":{\"id\":38949,\"name\":\"Datagram Network\",\"slug\":\" \",\"symbol\":\"DGRAM\"},\"type\":\"token\"},{\"type\":\"text\",\"content\":\" everyone vote.\"}]]",
+        "trendingScore": "-3299.823244038681",
+        "type": 0,
+        "isYours": false,
+        "topics": [],
+        "oneLinerTopics": [],
+        "currencies": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "bullish": false,
+        "projectUser": false,
+        "linkCardVisible": false,
+        "repostCount": "0",
+        "pinned": false,
+        "languageCode": "en",
+        "isVideo": false,
+        "bucketFrom": "5",
+        "vote": {
+          "expirationDate": 1767414507618,
+          "votes": [
+            {
+              "id": 1,
+              "content": "normal level scam "
+            },
+            {
+              "id": 2,
+              "content": "medium level scam "
+            },
+            {
+              "id": 3,
+              "content": "High level scam "
+            }
+          ],
+          "newVotes": [
+            {
+              "id": 1,
+              "content": "normal level scam "
+            },
+            {
+              "id": 2,
+              "content": "medium level scam "
+            },
+            {
+              "id": 3,
+              "content": "High level scam "
+            }
+          ],
+          "voteType": 0,
+          "useDiamond": false,
+          "voteDiamondCount": "10"
+        },
+        "hasVote": true,
+        "sourceType": 1,
+        "voteSummary": {
+          "votes": [
+            {
+              "id": 1,
+              "content": "normal level scam ",
+              "itemCount": "4",
+              "percentCount": 20,
+              "checked": false
+            },
+            {
+              "id": 2,
+              "content": "medium level scam ",
+              "itemCount": "4",
+              "percentCount": 20,
+              "checked": false
+            },
+            {
+              "id": 3,
+              "content": "High level scam ",
+              "itemCount": "12",
+              "percentCount": 60,
+              "checked": false
+            }
+          ],
+          "expiration": "1767414507618",
+          "isoExpiration": "2026-01-03T04:28:27.618Z",
+          "totalCount": "20",
+          "voteType": 0,
+          "useDiamond": false,
+          "voteDiamondCount": "10",
+          "poolSize": "200"
+        },
+        "isLive": false,
+        "isAnnouncement": false,
+        "impressionCount": "1167",
+        "hasTreasureBoxToOpen": false,
+        "linkHashes": [],
+        "links": [],
+        "englishTag": false
+      }
+    }
+  }
+},
+{
+  "platform": "coinmarketcap-community",
+  "stableId": "cmc-community:coinmarketcap-community:post:372433166",
+  "matchedAt": "2026-01-06T19:48:34.848Z",
+  "matchedSymbols": [
+    "DGRAM"
+  ],
+  "text": "$DGRAM Dgram does a drama every week because it gives fake pumps every week.😆",
+  "source": {
+    "actorId": "cmc/currency-community",
+    "runId": null,
+    "datasetId": null,
+    "url": "https://coinmarketcap.com/community/post/372433166/"
+  },
+  "raw": {
+    "kind": "post",
+    "id": "372433166",
+    "url": "https://coinmarketcap.com/community/post/372433166/",
+    "text": "$DGRAM Dgram does a drama every week because it gives fake pumps every week.😆",
+    "raw": {
+      "gravityId": "372433166",
+      "textContent": "$DGRAM Dgram does a drama every week because it gives fake pumps every week.😆",
+      "commentCount": "1",
+      "postTime": "1767155062509",
+      "owner": {
+        "nickname": "crypto analysis",
+        "handle": "analysis3455",
+        "avatarId": "61b9ab0112c2c70880d53862",
+        "createdTime": "1756872940217",
+        "userCreationTime": "1756872940110",
+        "type": 0,
+        "status": 0,
+        "followers": "6",
+        "followings": "0",
+        "hasFollowed": false,
+        "isYourself": false,
+        "authType": 0,
+        "announceType": 0,
+        "lastUpdateName": 1756873260304,
+        "lastUpdateNickname": 1756873214387,
+        "lastUpdateAvatarId": 1767174725108,
+        "avatar": {
+          "url": "https://s3.coinmarketcap.com/static/img/portraits/61b9ab0112c2c70880d53862.png",
+          "status": 2
+        },
+        "websiteAuditStatus": 2,
+        "vip": false,
+        "canPostLongPoll": false,
+        "frames": [],
+        "badges": [],
+        "goldenVerified": false,
+        "guid": "138841304"
+      },
+      "currencies": [
+        {
+          "id": 38949,
+          "symbol": "DGRAM",
+          "slug": "datagram-network"
+        }
+      ],
+      "raw": {
+        "gravityId": "372433166",
+        "owner": {
+          "nickname": "crypto analysis",
+          "handle": "analysis3455",
+          "avatarId": "61b9ab0112c2c70880d53862",
+          "createdTime": "1756872940217",
+          "userCreationTime": "1756872940110",
+          "type": 0,
+          "status": 0,
+          "followers": "6",
+          "followings": "0",
+          "hasFollowed": false,
+          "isYourself": false,
+          "authType": 0,
+          "announceType": 0,
+          "lastUpdateName": 1756873260304,
+          "lastUpdateNickname": 1756873214387,
+          "lastUpdateAvatarId": 1767174725108,
+          "avatar": {
+            "url": "https://s3.coinmarketcap.com/static/img/portraits/61b9ab0112c2c70880d53862.png",
+            "status": 2
+          },
+          "websiteAuditStatus": 2,
+          "vip": false,
+          "canPostLongPoll": false,
+          "frames": [],
+          "badges": [],
+          "goldenVerified": false,
+          "guid": "138841304"
+        },
+        "rootId": "372433166",
+        "textContent": "$DGRAM Dgram does a drama every week because it gives fake pumps every week.😆",
+        "commentCount": "1",
+        "likeCount": "20",
+        "isLiked": false,
+        "reactions": [
+          {
+            "gravityId": "372433166",
+            "type": 2,
+            "count": "8",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "reactionsV2": [
+          {
+            "gravityId": "372433166",
+            "type": 2,
+            "count": "8",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 8,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 9,
+            "count": "6",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 7,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 10,
+            "count": "6",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 11,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372433166",
+            "type": 12,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "postTime": "1767155062509",
+        "status": 0,
+        "originalContent": "[[{\"content\":{\"id\":38949,\"name\":\"Datagram Network\",\"slug\":\" \",\"symbol\":\"DGRAM\"},\"type\":\"token\"},{\"type\":\"text\",\"content\":\" Dgram does a drama every week because it gives fake pumps every week.😆\"}]]",
+        "trendingScore": "-1700.8232440631916",
+        "type": 0,
+        "isYours": false,
+        "topics": [],
+        "oneLinerTopics": [],
+        "currencies": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "projectUser": false,
+        "linkCardVisible": false,
+        "repostCount": "1",
+        "pinned": false,
+        "languageCode": "en",
+        "isVideo": false,
+        "bucketFrom": "5",
+        "hasVote": false,
+        "sourceType": 1,
+        "isLive": false,
+        "isAnnouncement": false,
+        "impressionCount": "1114",
+        "hasTreasureBoxToOpen": false,
+        "linkHashes": [],
+        "links": [],
+        "englishTag": false
+      }
+    }
+  }
+},
+{
+  "platform": "coinmarketcap-community",
+  "stableId": "cmc-community:coinmarketcap-community:post:372425141",
+  "matchedAt": "2026-01-06T19:49:42.944Z",
+  "matchedSymbols": [
+    "DGRAM"
+  ],
+  "text": "$DGRAM  is still getting tons of mindshare. A lot of it is negative (and incredibly misinformed) but what matters is that people are paying attention. That means they'll continue to see Datagram building and growing, which can only be good for the token",
+  "source": {
+    "actorId": "cmc/currency-community",
+    "runId": null,
+    "datasetId": null,
+    "url": "https://coinmarketcap.com/community/post/372425141/"
+  },
+  "raw": {
+    "kind": "post",
+    "id": "372425141",
+    "url": "https://coinmarketcap.com/community/post/372425141/",
+    "text": "$DGRAM  is still getting tons of mindshare. A lot of it is negative (and incredibly misinformed) but what matters is that people are paying attention. That means they'll continue to see Datagram building and growing, which can only be good for the token",
+    "raw": {
+      "gravityId": "372425141",
+      "textContent": "$DGRAM  is still getting tons of mindshare. A lot of it is negative (and incredibly misinformed) but what matters is that people are paying attention. That means they'll continue to see Datagram building and growing, which can only be good for the token",
+      "commentCount": "1",
+      "postTime": "1767125107926",
+      "owner": {
+        "nickname": "mr.dabs",
+        "handle": "drinkYourOJ",
+        "avatarId": "61b9ab0bf5f0fa566713befc",
+        "createdTime": "1764090507591",
+        "userCreationTime": "1764090507552",
+        "type": 0,
+        "status": 0,
+        "biography": "",
+        "originalBiography": "[]",
+        "websiteLink": "",
+        "followers": "0",
+        "followings": "1",
+        "hasFollowed": false,
+        "isYourself": false,
+        "authType": 0,
+        "announceType": 0,
+        "lastUpdateName": 1765203642116,
+        "lastUpdateNickname": 1765203642116,
+        "lastUpdateAvatarId": 1765203656554,
+        "avatar": {
+          "url": "https://s3.coinmarketcap.com/static/img/portraits/61b9ab0bf5f0fa566713befc.png",
+          "status": 2
+        },
+        "websiteAuditStatus": 2,
+        "vip": false,
+        "canPostLongPoll": false,
+        "frames": [],
+        "badges": [],
+        "goldenVerified": false,
+        "guid": "143775220"
+      },
+      "currencies": [
+        {
+          "id": 38949,
+          "symbol": "DGRAM",
+          "slug": "datagram-network"
+        }
+      ],
+      "raw": {
+        "gravityId": "372425141",
+        "owner": {
+          "nickname": "mr.dabs",
+          "handle": "drinkYourOJ",
+          "avatarId": "61b9ab0bf5f0fa566713befc",
+          "createdTime": "1764090507591",
+          "userCreationTime": "1764090507552",
+          "type": 0,
+          "status": 0,
+          "biography": "",
+          "originalBiography": "[]",
+          "websiteLink": "",
+          "followers": "0",
+          "followings": "1",
+          "hasFollowed": false,
+          "isYourself": false,
+          "authType": 0,
+          "announceType": 0,
+          "lastUpdateName": 1765203642116,
+          "lastUpdateNickname": 1765203642116,
+          "lastUpdateAvatarId": 1765203656554,
+          "avatar": {
+            "url": "https://s3.coinmarketcap.com/static/img/portraits/61b9ab0bf5f0fa566713befc.png",
+            "status": 2
+          },
+          "websiteAuditStatus": 2,
+          "vip": false,
+          "canPostLongPoll": false,
+          "frames": [],
+          "badges": [],
+          "goldenVerified": false,
+          "guid": "143775220"
+        },
+        "rootId": "372425141",
+        "textContent": "$DGRAM  is still getting tons of mindshare. A lot of it is negative (and incredibly misinformed) but what matters is that people are paying attention. That means they'll continue to see Datagram building and growing, which can only be good for the token",
+        "commentCount": "1",
+        "likeCount": "15",
+        "isLiked": false,
+        "reactions": [
+          {
+            "gravityId": "372425141",
+            "type": 2,
+            "count": "7",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 6,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "reactionsV2": [
+          {
+            "gravityId": "372425141",
+            "type": 2,
+            "count": "7",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 12,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 6,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 7,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 9,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 11,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 8,
+            "count": "4",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 10,
+            "count": "2",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372425141",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "postTime": "1767125107926",
+        "status": 0,
+        "originalContent": "[[{\"type\":\"token\",\"content\":{\"slug\":\"datagram-network\",\"id\":38949,\"symbol\":\"DGRAM\",\"name\":\"Datagram Network\"}},{\"type\":\"text\",\"content\":\" is still getting tons of mindshare. A lot of it is negative (and incredibly misinformed) but what matters is that people are paying attention. That means they'll continue to see Datagram building and growing, which can only be good for the token\"}]]",
+        "trendingScore": "-2000.8232470586497",
+        "type": 0,
+        "isYours": false,
+        "topics": [],
+        "oneLinerTopics": [],
+        "currencies": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "bullish": true,
+        "projectUser": false,
+        "linkCardVisible": true,
+        "repostCount": "0",
+        "pinned": false,
+        "languageCode": "en",
+        "isVideo": false,
+        "bucketFrom": "5",
+        "hasVote": false,
+        "sourceType": 1,
+        "isLive": false,
+        "isAnnouncement": false,
+        "impressionCount": "3878",
+        "hasTreasureBoxToOpen": false,
+        "linkHashes": [],
+        "links": [],
+        "englishTag": false
+      }
+    }
+  }
+},
+{
+  "platform": "coinmarketcap-community",
+  "stableId": "cmc-community:coinmarketcap-community:post:372380687",
+  "matchedAt": "2026-01-06T19:50:46.943Z",
+  "matchedSymbols": [
+    "DGRAM"
+  ],
+  "text": "Unfortunately, CoinMarketCap seems to be having a problem with us uploading images, which are required to post articles about $DGRAM . So, in lieu of that, take a look at this article about the Datagram VPN on X: https://x.com/BitBenderBrink/status/2005578660515127459",
+  "source": {
+    "actorId": "cmc/currency-community",
+    "runId": null,
+    "datasetId": null,
+    "url": "https://coinmarketcap.com/community/post/372380687/"
+  },
+  "raw": {
+    "kind": "post",
+    "id": "372380687",
+    "url": "https://coinmarketcap.com/community/post/372380687/",
+    "text": "Unfortunately, CoinMarketCap seems to be having a problem with us uploading images, which are required to post articles about $DGRAM . So, in lieu of that, take a look at this article about the Datagram VPN on X: https://x.com/BitBenderBrink/status/2005578660515127459",
+    "raw": {
+      "gravityId": "372380687",
+      "textContent": "Unfortunately, CoinMarketCap seems to be having a problem with us uploading images, which are required to post articles about $DGRAM . So, in lieu of that, take a look at this article about the Datagram VPN on X: https://x.com/BitBenderBrink/status/2005578660515127459",
+      "commentCount": "1",
+      "postTime": "1767002491519",
+      "owner": {
+        "nickname": "Datagram Network",
+        "handle": "Datagram_Network",
+        "avatarId": "633520129b613d3454890380",
+        "createdTime": "1763181301911",
+        "userCreationTime": "1763181301878",
+        "type": 1,
+        "status": 0,
+        "biography": "Datagram is a decentralized infrastructure network powering private networking, depin services, and real world applications. Built on community run cores, it delivers secure routing, verifiable uptime, and token aligned incentives at global scale.",
+        "originalBiography": "[[{\"type\":\"text\",\"content\":\"Datagram is a decentralized infrastructure network powering private networking, depin services, and real world applications. Built on community run cores, it delivers secure routing, verifiable uptime, and token aligned incentives at global scale.\"}]]",
+        "followers": "1783",
+        "followings": "0",
+        "hasFollowed": false,
+        "isYourself": false,
+        "authType": 1,
+        "coinList": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "announceType": 1,
+        "lastUpdateAvatarId": 1765628505419,
+        "avatar": {
+          "url": "https://s3.coinmarketcap.com/static-gravity/image/f2b0d17e043a44f085c1348db6d072a9.jpg",
+          "status": 2
+        },
+        "websiteAuditStatus": 2,
+        "vip": false,
+        "canPostLongPoll": false,
+        "frames": [],
+        "badges": [],
+        "mediaLanguage": "en",
+        "goldenVerified": false,
+        "guid": "143087540"
+      },
+      "currencies": [
+        {
+          "id": 38949,
+          "symbol": "DGRAM",
+          "slug": "datagram-network"
+        }
+      ],
+      "raw": {
+        "gravityId": "372380687",
+        "owner": {
+          "nickname": "Datagram Network",
+          "handle": "Datagram_Network",
+          "avatarId": "633520129b613d3454890380",
+          "createdTime": "1763181301911",
+          "userCreationTime": "1763181301878",
+          "type": 1,
+          "status": 0,
+          "biography": "Datagram is a decentralized infrastructure network powering private networking, depin services, and real world applications. Built on community run cores, it delivers secure routing, verifiable uptime, and token aligned incentives at global scale.",
+          "originalBiography": "[[{\"type\":\"text\",\"content\":\"Datagram is a decentralized infrastructure network powering private networking, depin services, and real world applications. Built on community run cores, it delivers secure routing, verifiable uptime, and token aligned incentives at global scale.\"}]]",
+          "followers": "1783",
+          "followings": "0",
+          "hasFollowed": false,
+          "isYourself": false,
+          "authType": 1,
+          "coinList": [
+            {
+              "id": 38949,
+              "symbol": "DGRAM",
+              "slug": "datagram-network"
+            }
+          ],
+          "announceType": 1,
+          "lastUpdateAvatarId": 1765628505419,
+          "avatar": {
+            "url": "https://s3.coinmarketcap.com/static-gravity/image/f2b0d17e043a44f085c1348db6d072a9.jpg",
+            "status": 2
+          },
+          "websiteAuditStatus": 2,
+          "vip": false,
+          "canPostLongPoll": false,
+          "frames": [],
+          "badges": [],
+          "mediaLanguage": "en",
+          "goldenVerified": false,
+          "guid": "143087540"
+        },
+        "rootId": "372380687",
+        "textContent": "Unfortunately, CoinMarketCap seems to be having a problem with us uploading images, which are required to post articles about $DGRAM . So, in lieu of that, take a look at this article about the Datagram VPN on X: https://x.com/BitBenderBrink/status/2005578660515127459",
+        "commentCount": "1",
+        "likeCount": "13",
+        "isLiked": false,
+        "reactions": [
+          {
+            "gravityId": "372380687",
+            "type": 2,
+            "count": "9",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 6,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "reactionsV2": [
+          {
+            "gravityId": "372380687",
+            "type": 2,
+            "count": "9",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 7,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 8,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 9,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 6,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 11,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 10,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372380687",
+            "type": 12,
+            "count": "1",
+            "reacted": false
+          }
+        ],
+        "postTime": "1767002491519",
+        "status": 0,
+        "originalContent": "[[{\"type\":\"text\",\"content\":\"Unfortunately, CoinMarketCap seems to be having a problem with us uploading images, which are required to post articles about \"},{\"type\":\"token\",\"content\":{\"slug\":\"datagram-network\",\"id\":38949,\"symbol\":\"DGRAM\",\"name\":\"Datagram Network\"}},{\"type\":\"text\",\"content\":\". So, in lieu of that, take a look at this article about the Datagram VPN on X: \"},{\"type\":\"link\",\"content\":{\"url\":\"https://x.com/BitBenderBrink/status/2005578660515127459\"}}]]",
+        "type": 0,
+        "isYours": false,
+        "topics": [],
+        "oneLinerTopics": [],
+        "currencies": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "projectUser": true,
+        "linkCardVisible": true,
+        "repostCount": "2",
+        "pinned": true,
+        "languageCode": "en",
+        "isVideo": false,
+        "hasVote": false,
+        "sourceType": 1,
+        "isLive": false,
+        "impressionCount": "3800",
+        "hasTreasureBoxToOpen": false,
+        "linkHashes": [
+          "687ecca3b289cb8029b89d5106ddefc8ac1cb313"
+        ],
+        "links": [
+          "https://x.com/BitBenderBrink/status/2005578660515127459"
+        ],
+        "englishTag": false
+      }
+    }
+  }
+},
+{
+  "platform": "coinmarketcap-community",
+  "stableId": "cmc-community:coinmarketcap-community:post:372193025",
+  "matchedAt": "2026-01-06T19:51:51.244Z",
+  "matchedSymbols": [
+    "DGRAM"
+  ],
+  "text": "We have a great article to post about the new Datagram VPN which burns $DGRAM , but the CMC article feature is somehow broken because it won't accept cover image uploads. The article is coming soon, but in the meantime check out https://vpn.datagram.network/ !",
+  "source": {
+    "actorId": "cmc/currency-community",
+    "runId": null,
+    "datasetId": null,
+    "url": "https://coinmarketcap.com/community/post/372193025/"
+  },
+  "raw": {
+    "kind": "post",
+    "id": "372193025",
+    "url": "https://coinmarketcap.com/community/post/372193025/",
+    "text": "We have a great article to post about the new Datagram VPN which burns $DGRAM , but the CMC article feature is somehow broken because it won't accept cover image uploads. The article is coming soon, but in the meantime check out https://vpn.datagram.network/ !",
+    "raw": {
+      "gravityId": "372193025",
+      "textContent": "We have a great article to post about the new Datagram VPN which burns $DGRAM , but the CMC article feature is somehow broken because it won't accept cover image uploads. The article is coming soon, but in the meantime check out https://vpn.datagram.network/ !",
+      "commentCount": "0",
+      "postTime": "1766405489032",
+      "owner": {
+        "nickname": "Datagram Network",
+        "handle": "Datagram_Network",
+        "avatarId": "633520129b613d3454890380",
+        "createdTime": "1763181301911",
+        "userCreationTime": "1763181301878",
+        "type": 1,
+        "status": 0,
+        "biography": "Datagram is a decentralized infrastructure network powering private networking, depin services, and real world applications. Built on community run cores, it delivers secure routing, verifiable uptime, and token aligned incentives at global scale.",
+        "originalBiography": "[[{\"type\":\"text\",\"content\":\"Datagram is a decentralized infrastructure network powering private networking, depin services, and real world applications. Built on community run cores, it delivers secure routing, verifiable uptime, and token aligned incentives at global scale.\"}]]",
+        "followers": "1783",
+        "followings": "0",
+        "hasFollowed": false,
+        "isYourself": false,
+        "authType": 1,
+        "coinList": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "announceType": 1,
+        "lastUpdateAvatarId": 1765628505419,
+        "avatar": {
+          "url": "https://s3.coinmarketcap.com/static-gravity/image/f2b0d17e043a44f085c1348db6d072a9.jpg",
+          "status": 2
+        },
+        "websiteAuditStatus": 2,
+        "vip": false,
+        "canPostLongPoll": false,
+        "frames": [],
+        "badges": [],
+        "mediaLanguage": "en",
+        "goldenVerified": false,
+        "guid": "143087540"
+      },
+      "currencies": [
+        {
+          "id": 38949,
+          "symbol": "DGRAM",
+          "slug": "datagram-network"
+        }
+      ],
+      "raw": {
+        "gravityId": "372193025",
+        "owner": {
+          "nickname": "Datagram Network",
+          "handle": "Datagram_Network",
+          "avatarId": "633520129b613d3454890380",
+          "createdTime": "1763181301911",
+          "userCreationTime": "1763181301878",
+          "type": 1,
+          "status": 0,
+          "biography": "Datagram is a decentralized infrastructure network powering private networking, depin services, and real world applications. Built on community run cores, it delivers secure routing, verifiable uptime, and token aligned incentives at global scale.",
+          "originalBiography": "[[{\"type\":\"text\",\"content\":\"Datagram is a decentralized infrastructure network powering private networking, depin services, and real world applications. Built on community run cores, it delivers secure routing, verifiable uptime, and token aligned incentives at global scale.\"}]]",
+          "followers": "1783",
+          "followings": "0",
+          "hasFollowed": false,
+          "isYourself": false,
+          "authType": 1,
+          "coinList": [
+            {
+              "id": 38949,
+              "symbol": "DGRAM",
+              "slug": "datagram-network"
+            }
+          ],
+          "announceType": 1,
+          "lastUpdateAvatarId": 1765628505419,
+          "avatar": {
+            "url": "https://s3.coinmarketcap.com/static-gravity/image/f2b0d17e043a44f085c1348db6d072a9.jpg",
+            "status": 2
+          },
+          "websiteAuditStatus": 2,
+          "vip": false,
+          "canPostLongPoll": false,
+          "frames": [],
+          "badges": [],
+          "mediaLanguage": "en",
+          "goldenVerified": false,
+          "guid": "143087540"
+        },
+        "rootId": "372193025",
+        "textContent": "We have a great article to post about the new Datagram VPN which burns $DGRAM , but the CMC article feature is somehow broken because it won't accept cover image uploads. The article is coming soon, but in the meantime check out https://vpn.datagram.network/ !",
+        "commentCount": "0",
+        "likeCount": "15",
+        "isLiked": false,
+        "reactions": [
+          {
+            "gravityId": "372193025",
+            "type": 2,
+            "count": "9",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 4,
+            "count": "1",
+            "reacted": false
+          }
+        ],
+        "reactionsV2": [
+          {
+            "gravityId": "372193025",
+            "type": 2,
+            "count": "9",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 7,
+            "count": "2",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 9,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 4,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 8,
+            "count": "1",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 12,
+            "count": "2",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 10,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "372193025",
+            "type": 11,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "postTime": "1766405489032",
+        "status": 0,
+        "originalContent": "[[{\"type\":\"text\",\"content\":\"We have a great article to post about the new Datagram VPN which burns \"},{\"type\":\"token\",\"content\":{\"slug\":\"datagram-network\",\"id\":38949,\"symbol\":\"DGRAM\",\"name\":\"Datagram Network\"}},{\"type\":\"text\",\"content\":\", but the CMC article feature is somehow broken because it won't accept cover image uploads. The article is coming soon, but in the meantime check out \"},{\"type\":\"link\",\"content\":{\"url\":\"https://vpn.datagram.network/\"}},{\"type\":\"text\",\"content\":\"!\"}]]",
+        "type": 0,
+        "isYours": false,
+        "topics": [],
+        "oneLinerTopics": [],
+        "currencies": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "bullish": true,
+        "projectUser": true,
+        "linkCardVisible": true,
+        "repostCount": "1",
+        "pinned": false,
+        "languageCode": "en",
+        "isVideo": false,
+        "hasVote": false,
+        "sourceType": 1,
+        "isLive": false,
+        "impressionCount": "1409",
+        "hasTreasureBoxToOpen": false,
+        "linkHashes": [
+          "0aebf017d4a518d2473be74264db4748dcb0ee43"
+        ],
+        "links": [
+          "https://vpn.datagram.network/"
+        ],
+        "englishTag": false
+      }
+    }
+  }
+},
+{
+  "platform": "coinmarketcap-community",
+  "stableId": "cmc-community:coinmarketcap-community:post:371999087",
+  "matchedAt": "2026-01-06T19:52:55.849Z",
+  "matchedSymbols": [
+    "DGRAM"
+  ],
+  "text": "Just a quick shout-out to the $DGRAM  community. We have awesome people like Rodebrecht, who built capsule-hub.com  and Hinode, who made these awesome little Grami guys we 3d printed. Best community in crypto.",
+  "source": {
+    "actorId": "cmc/currency-community",
+    "runId": null,
+    "datasetId": null,
+    "url": "https://coinmarketcap.com/community/post/371999087/"
+  },
+  "raw": {
+    "kind": "post",
+    "id": "371999087",
+    "url": "https://coinmarketcap.com/community/post/371999087/",
+    "text": "Just a quick shout-out to the $DGRAM  community. We have awesome people like Rodebrecht, who built capsule-hub.com  and Hinode, who made these awesome little Grami guys we 3d printed. Best community in crypto.",
+    "raw": {
+      "gravityId": "371999087",
+      "textContent": "Just a quick shout-out to the $DGRAM  community. We have awesome people like Rodebrecht, who built capsule-hub.com  and Hinode, who made these awesome little Grami guys we 3d printed. Best community in crypto.",
+      "commentCount": "4",
+      "postTime": "1765890270888",
+      "owner": {
+        "nickname": "Datagram Network",
+        "handle": "Datagram_Network",
+        "avatarId": "633520129b613d3454890380",
+        "createdTime": "1763181301911",
+        "userCreationTime": "1763181301878",
+        "type": 1,
+        "status": 0,
+        "biography": "Datagram is a decentralized infrastructure network powering private networking, depin services, and real world applications. Built on community run cores, it delivers secure routing, verifiable uptime, and token aligned incentives at global scale.",
+        "originalBiography": "[[{\"type\":\"text\",\"content\":\"Datagram is a decentralized infrastructure network powering private networking, depin services, and real world applications. Built on community run cores, it delivers secure routing, verifiable uptime, and token aligned incentives at global scale.\"}]]",
+        "followers": "1783",
+        "followings": "0",
+        "hasFollowed": false,
+        "isYourself": false,
+        "authType": 1,
+        "coinList": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "announceType": 1,
+        "lastUpdateAvatarId": 1765628505419,
+        "avatar": {
+          "url": "https://s3.coinmarketcap.com/static-gravity/image/f2b0d17e043a44f085c1348db6d072a9.jpg",
+          "status": 2
+        },
+        "websiteAuditStatus": 2,
+        "vip": false,
+        "canPostLongPoll": false,
+        "frames": [],
+        "badges": [],
+        "mediaLanguage": "en",
+        "goldenVerified": false,
+        "guid": "143087540"
+      },
+      "currencies": [
+        {
+          "id": 38949,
+          "symbol": "DGRAM",
+          "slug": "datagram-network"
+        }
+      ],
+      "raw": {
+        "gravityId": "371999087",
+        "owner": {
+          "nickname": "Datagram Network",
+          "handle": "Datagram_Network",
+          "avatarId": "633520129b613d3454890380",
+          "createdTime": "1763181301911",
+          "userCreationTime": "1763181301878",
+          "type": 1,
+          "status": 0,
+          "biography": "Datagram is a decentralized infrastructure network powering private networking, depin services, and real world applications. Built on community run cores, it delivers secure routing, verifiable uptime, and token aligned incentives at global scale.",
+          "originalBiography": "[[{\"type\":\"text\",\"content\":\"Datagram is a decentralized infrastructure network powering private networking, depin services, and real world applications. Built on community run cores, it delivers secure routing, verifiable uptime, and token aligned incentives at global scale.\"}]]",
+          "followers": "1783",
+          "followings": "0",
+          "hasFollowed": false,
+          "isYourself": false,
+          "authType": 1,
+          "coinList": [
+            {
+              "id": 38949,
+              "symbol": "DGRAM",
+              "slug": "datagram-network"
+            }
+          ],
+          "announceType": 1,
+          "lastUpdateAvatarId": 1765628505419,
+          "avatar": {
+            "url": "https://s3.coinmarketcap.com/static-gravity/image/f2b0d17e043a44f085c1348db6d072a9.jpg",
+            "status": 2
+          },
+          "websiteAuditStatus": 2,
+          "vip": false,
+          "canPostLongPoll": false,
+          "frames": [],
+          "badges": [],
+          "mediaLanguage": "en",
+          "goldenVerified": false,
+          "guid": "143087540"
+        },
+        "rootId": "371999087",
+        "textContent": "Just a quick shout-out to the $DGRAM  community. We have awesome people like Rodebrecht, who built capsule-hub.com  and Hinode, who made these awesome little Grami guys we 3d printed. Best community in crypto.",
+        "photoIds": [
+          "https://s3.coinmarketcap.com/static-gravity/image/00524dc025594ea0aaa68a03cc00dded.png"
+        ],
+        "commentCount": "4",
+        "likeCount": "29",
+        "isLiked": false,
+        "reactions": [
+          {
+            "gravityId": "371999087",
+            "type": 2,
+            "count": "19",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "reactionsV2": [
+          {
+            "gravityId": "371999087",
+            "type": 2,
+            "count": "19",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 3,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 6,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 8,
+            "count": "5",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 5,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 1,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 4,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 12,
+            "count": "3",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 7,
+            "count": "2",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 10,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 9,
+            "count": "0",
+            "reacted": false
+          },
+          {
+            "gravityId": "371999087",
+            "type": 11,
+            "count": "0",
+            "reacted": false
+          }
+        ],
+        "postTime": "1765890270888",
+        "status": 0,
+        "originalContent": "[[{\"type\":\"text\",\"content\":\"Just a quick shout-out to the \"},{\"type\":\"token\",\"content\":{\"slug\":\"datagram-network\",\"id\":38949,\"symbol\":\"DGRAM\",\"name\":\"Datagram Network\"}},{\"type\":\"text\",\"content\":\" community. We have awesome people like Rodebrecht, who built \"},{\"type\":\"link\",\"content\":{\"url\":\"capsule-hub.com\"}},{\"type\":\"text\",\"content\":\" and Hinode, who made these awesome little Grami guys we 3d printed. Best community in crypto.\"}]]",
+        "type": 0,
+        "isYours": false,
+        "topics": [],
+        "oneLinerTopics": [],
+        "currencies": [
+          {
+            "id": 38949,
+            "symbol": "DGRAM",
+            "slug": "datagram-network"
+          }
+        ],
+        "projectUser": true,
+        "linkCardVisible": true,
+        "repostCount": "5",
+        "pinned": false,
+        "languageCode": "en",
+        "isVideo": false,
+        "images": [
+          {
+            "type": 1,
+            "url": "https://s3.coinmarketcap.com/static-gravity/image/00524dc025594ea0aaa68a03cc00dded.png"
+          }
+        ],
+        "hasVote": false,
+        "sourceType": 1,
+        "isLive": false,
+        "impressionCount": "6580",
+        "hasTreasureBoxToOpen": false,
+        "linkHashes": [
+          "db05e04f79047ed6510b3729f889d3afbea5b8a8"
+        ],
+        "links": [
+          "capsule-hub.com"
+        ],
+        "englishTag": false
+      }
+    }
+  }
+}]
