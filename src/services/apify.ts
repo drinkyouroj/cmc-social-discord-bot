@@ -1,4 +1,4 @@
-import { ApifyClient } from '@apify/client';
+import { ApifyClient } from 'apify-client';
 import { env } from '../env.js';
 import { logger } from '../logger.js';
 

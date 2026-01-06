@@ -15,8 +15,8 @@
     "register-commands": "tsx src/discord/registerCommands.ts"
   },
   "dependencies": {
-    "@apify/client": "^2.10.1",
     "@prisma/client": "^6.2.1",
+    "apify-client": "^2.10.1",
     "discord.js": "^14.16.3",
     "dotenv": "^16.4.7",
     "openai": "^4.78.1",
