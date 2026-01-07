@@ -5,6 +5,18 @@ Discord bot that mimics Engage Bot-style “proof + sentiment” workflows for *
 - **Apify Task**: `J28Ta2lp3OdssRi57` (returns exactly 1 post item for a given `postIdOrUrl`)
 - **ParalonCloud base URL**: `https://paraloncloud.com/v1` (OpenAI-compatible; see ParalonCloud inference page at `https://paraloncloud.com/inference`)
 
+### Documentation
+
+- `docs/00-overview.md`
+- `docs/01-apify.md`
+- `docs/02-paralon-sentiment.md`
+- `docs/03-database.md`
+- `docs/04-discord-commands.md`
+- `docs/05-deployment.md`
+- `docs/06-operations-runbook.md`
+- `docs/07-development.md`
+- `docs/08-economy-api.md`
+
 ### Features
 
 - **/register**: starts registration by generating a unique code (expires in 12h)
@@ -58,6 +70,12 @@ docker compose up -d --build
 
 ```bash
 docker compose exec bot npx prisma migrate deploy
+```
+
+4. Register slash commands (guild-scoped is fast if `DISCORD_GUILD_ID` is set):
+
+```bash
+docker compose exec bot node dist/discord/registerCommands.js
 ```
 
 ### Admin usage
