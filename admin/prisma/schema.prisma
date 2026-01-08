@@ -1,0 +1,108 @@
+// Admin app uses the same Prisma schema as the bot.
+// This file exists so Prisma can generate a client within the admin build context.
+// Keep it in sync by copying from the root `prisma/schema.prisma`.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum SubmissionStatus {
+  PENDING_REVIEW
+  APPROVED
+  REJECTED
+}
+
+model User {
+  id               String   @id @default(cuid())
+  discordUserId    String   @unique
+  registeredHandle String?
+  registeredAt     DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  pendingRegistrations PendingRegistration[]
+  submissions         Submission[]
+}
+
+model PendingRegistration {
+  id             String   @id @default(cuid())
+  userId         String
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  requestedHandle String
+  code           String   @unique
+  issuedAt       DateTime
+  expiresAt      DateTime
+  consumedAt     DateTime?
+  createdAt      DateTime @default(now())
+}
+
+model GuildConfig {
+  id                    String   @id @default(cuid())
+  guildId               String   @unique
+  adminRoleId           String?
+  maxPostAgeDays        Int      @default(7)
+  sentimentMinConfidence Float   @default(0.65)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  allowlistedUsers GuildAllowlistedUser[]
+}
+
+model GuildAllowlistedUser {
+  id            String @id @default(cuid())
+  guildConfigId String
+  guild         GuildConfig @relation(fields: [guildConfigId], references: [id], onDelete: Cascade)
+  discordUserId String
+
+  createdAt DateTime @default(now())
+
+  @@unique([guildConfigId, discordUserId])
+}
+
+model Submission {
+  id            String   @id @default(cuid())
+  guildId       String
+  discordUserId String
+  userId        String?
+  user          User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  postIdOrUrl     String
+  postStableId    String?  @unique
+  postUrl         String?
+  postOwnerHandle String?
+  postText        String?
+  postTimeMs      BigInt?
+  bullish         Boolean?
+
+  llmLabel      String?
+  llmConfidence Float?
+  llmLanguage   String?
+  llmRawJson    Json?
+
+  status                SubmissionStatus @default(PENDING_REVIEW)
+  decisionReason        String?
+  decidedByDiscordUserId String?
+  decidedAt             DateTime?
+
+  pointsAwarded                Boolean  @default(false)
+  pointsAmount                 Int?
+  pointsCurrency               String?
+  pointsAwardedByDiscordUserId String?
+  pointsAwardedAt              DateTime?
+  pointsNote                   String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([guildId, status])
+  @@index([discordUserId])
+  @@index([guildId, pointsAwarded])
+}
+

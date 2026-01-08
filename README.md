@@ -78,6 +78,22 @@ docker compose exec bot npx prisma migrate deploy
 docker compose exec bot node dist/discord/registerCommands.js
 ```
 
+### Web admin UI
+
+This repo includes a minimal Next.js admin app served under **`/admin`** (via Next `basePath`).
+
+- Local access: `http://localhost:3000/admin`
+- Production: configure your reverse proxy to route `/admin/*` to the `admin` container (port 3000).
+
+Required env vars (in `.env`):
+- `DISCORD_OAUTH_CLIENT_SECRET`
+- `NEXTAUTH_URL` (e.g. `https://yourdomain.com`)
+- `NEXTAUTH_SECRET` (random 32+ chars)
+
+Discord OAuth redirect URIs to add in the Discord Developer Portal:
+- `http://localhost:3000/admin/api/auth/callback/discord`
+- `https://yourdomain.com/admin/api/auth/callback/discord`
+
 ### Admin usage
 
 - Set admin role for a guild:
